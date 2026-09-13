@@ -1,0 +1,19 @@
+public class Ejercicio2 {
+
+    public static void main(String[] args) {
+
+        // Creo el Scanner para recibir datos del teclado
+        Scanner entrada = new Scanner(System.in);
+
+        // Pedimos el nombre
+        System.out.print("Ingresa tu nombre: ");
+        String nombre = entrada.nextLine();
+
+        // Pedimos su pasatiempo 
+        System.out.print("Ingresa tu pasatiempo favorito: ");
+        String pasatiempo = entrada.nextLine();
+
+        // Mostramos los datos
+        System.out.println(nombre + ", tu pasatiempo favorito es " + pasatiempo);
+    }
+}
