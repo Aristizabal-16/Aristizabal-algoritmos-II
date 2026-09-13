@@ -1,0 +1,20 @@
+public class Ejercicio4 {
+
+    public static void main(String[] args) {
+
+        // Creo el Scanner
+        Scanner entrada = new Scanner(System.in);
+
+        // Pedimos un número
+        System.out.print("Ingresa un número entero positivo: ");
+        int numero = entrada.nextInt();
+
+        // Repetimos desde 1 hasta 10
+        for (int i = 1; i <= 10; i++) {
+
+            int resultado = numero * i;
+
+            System.out.println(numero + " x " + i + " = " + resultado);
+        }
+    }
+}
